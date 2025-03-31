@@ -381,6 +381,9 @@
 -analyzer:"D:/u2022.3.15f1/2022.3.15f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/u2022.3.15f1/2022.3.15f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/AnimateHandOnInput.cs"
+"Assets/Scripts/BezierCurve.cs"
+"Assets/Scripts/BezierMover.cs"
+"Assets/Scripts/LineRender.cs"
 -langversion:9.0
 
 /deterministic
