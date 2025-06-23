@@ -380,10 +380,12 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 -analyzer:"D:/u2022.3.15f1/2022.3.15f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/u2022.3.15f1/2022.3.15f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Scripts/ActivateTeleport.cs"
 "Assets/Scripts/AnimateHandOnInput.cs"
 "Assets/Scripts/BezierCurve.cs"
 "Assets/Scripts/BezierMover.cs"
 "Assets/Scripts/LineRender.cs"
+"Assets/Scripts/TrainMotion.cs"
 -langversion:9.0
 
 /deterministic

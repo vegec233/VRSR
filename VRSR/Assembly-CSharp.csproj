@@ -59,15 +59,20 @@
     <UnityVersion>2022.3.15f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Users\aga\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.1.1\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Users\aga\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.1.2\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="D:\u2022.3.15f1\2022.3.15f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="D:\u2022.3.15f1\2022.3.15f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\BezierMover.cs" />
     <Compile Include="Assets\Scripts\AnimateHandOnInput.cs" />
+    <Compile Include="Assets\Scripts\TrainMotion.cs" />
     <Compile Include="Assets\Scripts\LineRender.cs" />
+    <Compile Include="Assets\Scripts\ActivateTeleport.cs" />
     <Compile Include="Assets\Scripts\BezierCurve.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Materials\shaders\teleportPos.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
