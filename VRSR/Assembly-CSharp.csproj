@@ -67,8 +67,11 @@
     <Compile Include="Assets\Scripts\BezierMover.cs" />
     <Compile Include="Assets\Scripts\AnimateHandOnInput.cs" />
     <Compile Include="Assets\Scripts\TrainMotion.cs" />
+    <Compile Include="Assets\Scripts\EinsteinAnimation.cs" />
+    <Compile Include="Assets\Scripts\BezierMover_V2.cs" />
     <Compile Include="Assets\Scripts\LineRender.cs" />
     <Compile Include="Assets\Scripts\ActivateTeleport.cs" />
+    <Compile Include="Assets\Scripts\VoicePlay.cs" />
     <Compile Include="Assets\Scripts\BezierCurve.cs" />
   </ItemGroup>
   <ItemGroup>

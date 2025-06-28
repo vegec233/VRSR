@@ -10,6 +10,9 @@ public class TrainMotion : MonoBehaviour
     public float speed = 2f;
     public float destroyDelay = 1f;  
     public float spawnDelay = 0.5f;
+    public BezierMover bezierMover;
+
+    public bool moveSwitch = true;
 
     void Start()
     {
@@ -18,13 +21,32 @@ public class TrainMotion : MonoBehaviour
 
     void Update()
     {
-        transform.position -= new Vector3(speed * Time.deltaTime, 0, 0);
+        if (moveSwitch)
+        {
+            transform.position -= new Vector3(speed * Time.deltaTime, 0, 0);
+        }
     }
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Trigger entered with: " + other.name);
-        StartCoroutine(HandleTrainCollision());
+        if (other.gameObject.tag == "Tunnel")
+        {
+            Debug.Log("Trigger entered with: " + other.name);
+            StartCoroutine(HandleTrainCollision());
+        }
+
+        if (other.gameObject.tag == "BallMoveTrigger")
+        {
+            bezierMover.ballTrigger = true;
+        }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "BallMoveTrigger")
+        {
+            bezierMover.ballTrigger = false;
+        }
     }
 
     IEnumerator HandleTrainCollision()
