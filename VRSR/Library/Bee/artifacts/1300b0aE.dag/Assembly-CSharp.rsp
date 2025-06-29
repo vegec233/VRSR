@@ -386,6 +386,8 @@
 "Assets/Scripts/BezierMover.cs"
 "Assets/Scripts/BezierMover_V2.cs"
 "Assets/Scripts/EinsteinAnimation.cs"
+"Assets/Scripts/E_Behaviour.cs"
+"Assets/Scripts/Fading.cs"
 "Assets/Scripts/LineRender.cs"
 "Assets/Scripts/TrainMotion.cs"
 "Assets/Scripts/VoicePlay.cs"
