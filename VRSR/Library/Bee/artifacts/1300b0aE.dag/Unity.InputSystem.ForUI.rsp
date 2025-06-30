@@ -347,8 +347,9 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/AssemblyInfo.cs"
-"Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Plugins/InputForUI/InputSystemProvider.cs"
+"Library/PackageCache/com.unity.inputsystem@1.11.0/InputSystem/Plugins/InputForUI/AssemblyInfo.cs"
+"Library/PackageCache/com.unity.inputsystem@1.11.0/InputSystem/Plugins/InputForUI/InputActionAssetVerifier.cs"
+"Library/PackageCache/com.unity.inputsystem@1.11.0/InputSystem/Plugins/InputForUI/InputSystemProvider.cs"
 -langversion:9.0
 
 /deterministic
