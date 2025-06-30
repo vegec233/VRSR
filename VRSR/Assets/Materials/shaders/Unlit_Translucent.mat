@@ -46,7 +46,7 @@ Material:
     - _FlowAlpha: 1
     - _Flow_U: 0
     - _Flow_V: 0
-    - _RimPower: 0.66
+    - _RimPower: 0.4
     m_Colors:
     - _EmissColor: {r: 1, g: 1, b: 1, a: 1}
     - _MainColor: {r: 0.54088044, g: 0.4789161, b: 0.14117317, a: 1}

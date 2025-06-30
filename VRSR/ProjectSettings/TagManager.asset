@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Tunnel
   - BallMoveTrigger
+  - grabable
+  - Left Hand
+  - Right Hand
   layers:
   - Default
   - TransparentFX
